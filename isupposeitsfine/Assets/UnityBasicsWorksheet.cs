@@ -22,8 +22,8 @@ public class UnityBasicsWorksheet : MonoBehaviour
         // Uncomment the section you want to try!
         
         // TryVariables(); //Working!
-         TryMath();
-        // TryIfStatements();
+        // TryMath(); //Working!
+         TryIfStatements();
         // TryForLoop();
         // TryWhileLoop();
         // TryFunctions();
@@ -122,6 +122,22 @@ public class UnityBasicsWorksheet : MonoBehaviour
         // x > 3 && x < 10    (AND - both must be true)
         // x < 3 || x > 10    (OR - at least one must be true)
         // !isAlive           (NOT - opposite)
+
+        int score = 85;
+
+        if (score >= 90){
+            Debug.Log("A");
+        }
+        else if (score >= 80){
+            Debug.Log("B");
+        }
+        else if (score >= 70){
+            Debug.Log("C");
+        }
+        else {
+            Debug.Log("F");
+        }
+
         
         // EXERCISE: Check conditions
         // 1. Create a variable 'score' = 85
