@@ -27,7 +27,7 @@ public class PlayerHealth: MonoBehaviour, IDamageable
             HandleBlink();
         }
 
-        Debug.Log(currentHealth);
+        //Debug.Log(currentHealth);
     }
 
     public bool ApplyDamage(float amount)
