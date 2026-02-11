@@ -1,7 +1,6 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-
 public class BlueAI : MonoBehaviour, IDamageable
 {
     [Header("Stats")]
@@ -23,7 +22,7 @@ public class BlueAI : MonoBehaviour, IDamageable
     private Rigidbody2D rb;
     private Animator animator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Awake()
+    private void Awake()
     {
             currentHealth = maxHealth;
             rb = GetComponent<Rigidbody2D>();
@@ -39,7 +38,7 @@ public class BlueAI : MonoBehaviour, IDamageable
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (currentHealth <= 0) return;
         attackTimer -= Time.deltaTime;
