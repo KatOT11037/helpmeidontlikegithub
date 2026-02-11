@@ -11,14 +11,15 @@ public class UnityIntermediateWorksheet : MonoBehaviour
         //Section1_Prefabs(); //done
         Section2_Materials(); //done
         //Section3_Input(); //moved to update for repeated check
-        Section4_Audio();
-        // Section5_ScriptedMovement();
-        // Section6_Coroutines();
+        //Section4_Audio(); //done
+        //Section5_ScriptedMovement();
+        Section6_Coroutines();
     }
 
     /*
     void Update()
     {
+        Section5_ScriptedMovement(); //done
         Section3_Input(); //done
     }
     */
